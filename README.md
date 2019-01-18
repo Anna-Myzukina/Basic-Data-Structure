@@ -1,2 +1,11 @@
 # Basic-Data-Structure
-Introduction to basic data structure
+
+Introduction to the Basic Data Structure Challenges
+https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures
+
+
+Data can be stored and accessed in many different ways, both in Javascript and other languages. 
+This section will teach you how to manipulate arrays, as well as access and copy the information within them.
+It will also teach you how to manipulate and access the data within Javascript objects, 
+using both dot and bracket notation. When you're done with this section, you should understand
+the basic properties and differences between arrays and objects, as well as how to choose which to use for a given purpose.
