@@ -24,3 +24,32 @@ While structures can quickly become complex, we can still use the same notations
 Here we've defined an object, userActivity, which includes another object nested within it.
 You can modify properties on this nested object in the same way you modified properties in the last challenge. 
 Set the value of the online key to 45.*/
+
+
+Example:
+let myObject = {
+  level_1: 'outside',
+  first_level_object: {
+    level_2: '2 levels deep',
+    second_level_object: {
+      level_3: '3 levels deep'
+      }
+   }
+};
+//The following line of code will modify the data found in level_2.
+myObject.first_level_object.level_2 = 'level-2 has been reached';
+Solution:
+let userActivity = {
+  id: 23894201352,
+  date: 'January 1, 2017',
+  data: {
+    totalUsers: 51,
+    online: 42
+  }
+};
+
+// change code below this line
+userActivity.data.online = 45;
+// change code above this line
+
+console.log(userActivity);
